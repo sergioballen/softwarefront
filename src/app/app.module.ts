@@ -14,6 +14,9 @@ import { LoginComponent } from './Components/login/login.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { BarraLateralComponent } from './Components/barra-lateral/barra-lateral.component';
 import { HomeComponent } from './Components/home/home.component';
+import { NavUserComponent } from './Components/nav-user/nav-user.component';
+import { DisponibilidadUserComponent } from './Components/disponibilidad-user/disponibilidad-user.component';
+
 
 
 @NgModule({
@@ -22,7 +25,10 @@ import { HomeComponent } from './Components/home/home.component';
     BienvenidaComponent,
     LoginComponent,
     BarraLateralComponent,
-    HomeComponent
+    HomeComponent,
+    NavUserComponent,
+    DisponibilidadUserComponent,
+
   ],
   imports: [
     BrowserModule,
