@@ -5,7 +5,7 @@ import {MatListModule} from '@angular/material/list';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
-
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BienvenidaComponent } from './bienvenida/bienvenida.component';
@@ -19,7 +19,6 @@ import { DisponibilidadUserComponent } from './Components/disponibilidad-user/di
 import { GestionUserComponent } from './Components/gestion-user/gestion-user.component';
 import { SolReservaComponent } from './Components/sol-reserva/sol-reserva.component';
 import { MatTableModule } from '@angular/material/table';
-import {FormsModule} from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 
 @NgModule({

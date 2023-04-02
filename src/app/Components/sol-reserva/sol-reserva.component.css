@@ -1,3 +1,4 @@
+
 .titulo {
     min-width: 900px;
     max-width: 90%;
@@ -66,6 +67,7 @@ custom-form {
     margin-top: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
+    color: #0e0d0d;
 }
 input{
     text-align: center;
@@ -87,4 +89,15 @@ input{
     border-radius: 1.5rem;
     margin-top: 50px;
     cursor: pointer;
+}
+select{
+    margin-bottom: 10px;
+        margin-top: 10px;
+        font-family: cursive, sans-serif;
+        outline: 0;
+        background: #ebf5fc;
+        color: black;
+        padding: 4px;
+        border-radius: 9px;
+        width: 50%;
 }
