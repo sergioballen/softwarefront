@@ -16,8 +16,11 @@ import { BarraLateralComponent } from './Components/barra-lateral/barra-lateral.
 import { HomeComponent } from './Components/home/home.component';
 import { NavUserComponent } from './Components/nav-user/nav-user.component';
 import { DisponibilidadUserComponent } from './Components/disponibilidad-user/disponibilidad-user.component';
-
-
+import { GestionUserComponent } from './Components/gestion-user/gestion-user.component';
+import { SolReservaComponent } from './Components/sol-reserva/sol-reserva.component';
+import { MatTableModule } from '@angular/material/table';
+import {FormsModule} from '@angular/forms';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -28,6 +31,9 @@ import { DisponibilidadUserComponent } from './Components/disponibilidad-user/di
     HomeComponent,
     NavUserComponent,
     DisponibilidadUserComponent,
+    GestionUserComponent,
+    SolReservaComponent,
+   
 
   ],
   imports: [
@@ -39,9 +45,16 @@ import { DisponibilidadUserComponent } from './Components/disponibilidad-user/di
     MatToolbarModule,
     LayoutModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    MatTableModule,
+    FormsModule,
+    MatInputModule,
+  
+ 
   ],
-  providers: [],
+  providers: [ 
+    
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
