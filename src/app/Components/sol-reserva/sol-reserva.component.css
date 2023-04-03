@@ -90,6 +90,19 @@ input{
     margin-top: 50px;
     cursor: pointer;
 }
+.Cancelar{
+    margin-left: 80%;
+    width: 15%;
+    font-size: 0.875rem;
+    color: #0e0d0d;
+    display: block;
+    padding: 0.875rem 1rem;
+    border-radius: 1.5rem;
+    margin-top: 50px;
+    cursor: pointer;
+    background-color: #c9e1e7d8;
+
+}
 select{
     margin-bottom: 10px;
         margin-top: 10px;

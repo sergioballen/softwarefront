@@ -8,7 +8,6 @@ import { MatIconModule } from '@angular/material/icon';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BienvenidaComponent } from './bienvenida/bienvenida.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './Components/login/login.component';
 import { LayoutModule } from '@angular/cdk/layout';
@@ -24,7 +23,6 @@ import { MatInputModule } from '@angular/material/input';
 @NgModule({
   declarations: [
     AppComponent,
-    BienvenidaComponent,
     LoginComponent,
     BarraLateralComponent,
     HomeComponent,
