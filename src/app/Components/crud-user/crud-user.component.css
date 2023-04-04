@@ -31,7 +31,8 @@
     border-radius: 2.5rem;
     background-color: #c9bdbdd1;
     box-shadow: 13px 13px 20px #19191a, -13px -13px 20px #171717;
-    color: rgba(13, 12, 12, 0.576);
+    color: rgba(9, 9, 9, 0.955);
     margin-top: 2rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Brush Script MT;
+    font-size: 20px;
 }

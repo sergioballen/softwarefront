@@ -19,6 +19,8 @@ import { GestionUserComponent } from './Components/gestion-user/gestion-user.com
 import { SolReservaComponent } from './Components/sol-reserva/sol-reserva.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatInputModule } from '@angular/material/input';
+import { CrudUserComponent } from './Components/crud-user/crud-user.component';
+
 
 @NgModule({
   declarations: [
@@ -30,6 +32,8 @@ import { MatInputModule } from '@angular/material/input';
     DisponibilidadUserComponent,
     GestionUserComponent,
     SolReservaComponent,
+    CrudUserComponent,
+   
    
 
   ],
