@@ -7,6 +7,8 @@ import { GestionUserComponent } from './Components/gestion-user/gestion-user.com
 import { SolReservaComponent } from './Components/sol-reserva/sol-reserva.component';
 import { CrudUserComponent } from './Components/crud-user/crud-user.component';
 import { CrudAdmonComponent } from './Components/crud-admon/crud-admon.component';
+import { LoginComponent } from './Components/login/login.component';
+import { CrearEscenarioComponent } from './Components/crear-escenario/crear-escenario.component';
 const routes: Routes = [
   {path:"home", component:HomeComponent},
   {path:"nav-user",component:NavUserComponent},
@@ -14,7 +16,9 @@ const routes: Routes = [
   {path:"ver", component:GestionUserComponent},
   {path: "reserva",component: SolReservaComponent},
   {path:"crud_user",component:CrudUserComponent},
-  {path: "crud_admon", component: CrudAdmonComponent}
+  {path: "crud_admon", component: CrudAdmonComponent},
+  {path: "login",component: LoginComponent},
+  {path: "crearEsc", component: CrearEscenarioComponent}
 ];
 
 @NgModule({
