@@ -22,6 +22,8 @@ import { MatInputModule } from '@angular/material/input';
 import { CrudUserComponent } from './Components/crud-user/crud-user.component';
 import { CrudAdmonComponent } from './Components/crud-admon/crud-admon.component';
 import { CrearEscenarioComponent } from './Components/crear-escenario/crear-escenario.component';
+import { VisualizarAdmonComponent } from './Components/visualizar-admon/visualizar-admon.component';
+import { ReportesComponent } from './Components/reportes/reportes.component';
 
 
 @NgModule({
@@ -37,6 +39,8 @@ import { CrearEscenarioComponent } from './Components/crear-escenario/crear-esce
     CrudUserComponent,
     CrudAdmonComponent,
     CrearEscenarioComponent,
+    VisualizarAdmonComponent,
+    ReportesComponent,
    
    
 

@@ -9,6 +9,8 @@ import { CrudUserComponent } from './Components/crud-user/crud-user.component';
 import { CrudAdmonComponent } from './Components/crud-admon/crud-admon.component';
 import { LoginComponent } from './Components/login/login.component';
 import { CrearEscenarioComponent } from './Components/crear-escenario/crear-escenario.component';
+import { VisualizarAdmonComponent } from './Components/visualizar-admon/visualizar-admon.component';
+import { ReportesComponent } from './Components/reportes/reportes.component';
 const routes: Routes = [
   {path:"home", component:HomeComponent},
   {path:"nav-user",component:NavUserComponent},
@@ -18,7 +20,9 @@ const routes: Routes = [
   {path:"crud_user",component:CrudUserComponent},
   {path: "crud_admon", component: CrudAdmonComponent},
   {path: "login",component: LoginComponent},
-  {path: "crearEsc", component: CrearEscenarioComponent}
+  {path: "crearEsc", component: CrearEscenarioComponent},
+  {path: "verEscenarios", component: VisualizarAdmonComponent},
+  {path: "reporte", component: ReportesComponent}
 ];
 
 @NgModule({
