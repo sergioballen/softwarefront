@@ -20,6 +20,7 @@ import { SolReservaComponent } from './Components/sol-reserva/sol-reserva.compon
 import { MatTableModule } from '@angular/material/table';
 import { MatInputModule } from '@angular/material/input';
 import { CrudUserComponent } from './Components/crud-user/crud-user.component';
+import { CrudAdmonComponent } from './Components/crud-admon/crud-admon.component';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import { CrudUserComponent } from './Components/crud-user/crud-user.component';
     GestionUserComponent,
     SolReservaComponent,
     CrudUserComponent,
+    CrudAdmonComponent,
    
    
 
