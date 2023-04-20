@@ -23,6 +23,8 @@ const routes: Routes = [
   {path: "crearEsc", component: CrearEscenarioComponent},
   {path: "verEscenarios", component: VisualizarAdmonComponent},
   {path: "reporte", component: ReportesComponent}
+  
+
 ];
 
 @NgModule({
