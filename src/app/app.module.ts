@@ -26,7 +26,6 @@ import { VisualizarAdmonComponent } from './Components/visualizar-admon/visualiz
 import { ReportesComponent } from './Components/reportes/reportes.component';
 import { CalendarModule, DateAdapter } from 'angular-calendar';
 import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
-import { CalendarComponent } from './Components/calendar/calendar.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +42,7 @@ import { CalendarComponent } from './Components/calendar/calendar.component';
     CrearEscenarioComponent,
     VisualizarAdmonComponent,
     ReportesComponent,
-    CalendarComponent,
+  
     
     
    
