@@ -1,4 +1,4 @@
-div {
+.div {
     min-width: 700px;
     max-width: 50%;
     margin: 0px auto;
@@ -19,3 +19,18 @@ div {
     text-align: center;
    
 }
+
+.Content-calendar{
+    margin: 30px; 
+    width: 90%;
+    height: 50%;
+    
+
+}
+
+.row text-center{
+    background-color: #d5c3c37a;
+}
+
+  
+  

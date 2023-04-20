@@ -24,7 +24,9 @@ import { CrudAdmonComponent } from './Components/crud-admon/crud-admon.component
 import { CrearEscenarioComponent } from './Components/crear-escenario/crear-escenario.component';
 import { VisualizarAdmonComponent } from './Components/visualizar-admon/visualizar-admon.component';
 import { ReportesComponent } from './Components/reportes/reportes.component';
-
+import { CalendarModule, DateAdapter } from 'angular-calendar';
+import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
+import { CalendarComponent } from './Components/calendar/calendar.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +43,9 @@ import { ReportesComponent } from './Components/reportes/reportes.component';
     CrearEscenarioComponent,
     VisualizarAdmonComponent,
     ReportesComponent,
+    CalendarComponent,
+    
+    
    
    
 
@@ -58,6 +63,10 @@ import { ReportesComponent } from './Components/reportes/reportes.component';
     MatTableModule,
     FormsModule,
     MatInputModule,
+    CalendarModule.forRoot({
+      provide: DateAdapter,
+      useFactory: adapterFactory,
+    })
   
  
   ],
