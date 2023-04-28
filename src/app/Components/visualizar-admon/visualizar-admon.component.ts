@@ -16,11 +16,7 @@ export class VisualizarAdmonComponent {
 articuloselect: cancha = new cancha(0, "", "");
 
 @ViewChild(MatTable) tabla1!: MatTable<cancha>;
-
-
-
 }
-
 
 export class cancha {
 constructor(public ID: number,  public Nom_Escenario: string, public Descripcion: string) {
